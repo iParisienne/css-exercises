@@ -7,6 +7,29 @@ img {
   height: 100px;
 }
 
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+	align-items: center;
+}
+
+.content-wrapper {
+	display: flex;
+	gap: 52px;
+}
+
+.content-child {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 200px;
+}
+
+.text {
+	text-align: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
